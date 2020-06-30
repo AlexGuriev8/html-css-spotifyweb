@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat, sans-serif"
+  color: #fff;
+}
+
+/* Spotify */
+#spotify {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: red;
+}
+ #sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 230px;
+  background-color: pink;
+}
+#main-wid {
+  display: flex;
+}
+#content {
+  position: relative;
+}
+.content__top-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+
+.flexGrow--1 {
+  flex-grow: 1;
+}
