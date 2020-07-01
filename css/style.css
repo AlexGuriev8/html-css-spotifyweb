@@ -28,7 +28,7 @@ font-family: 'Open Sans', sans-serif;
 
 #content {
   position: relative;
-  background: #313146;
+  background: #141922;
 }
 
 #player {
@@ -139,6 +139,7 @@ font-family: 'Open Sans', sans-serif;
     background: rgba(0,0,0, .4);
     z-index: 1;
 }
+
 #content .content__scrollable {
     position: absolute;
     top: 0;
@@ -185,6 +186,29 @@ font-family: 'Open Sans', sans-serif;
 .scrollable-menu {
   padding: 20px 0;
 }
+.item__title {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.item__subtitle {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.item__subtitle,
+.category__subtitle {
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.title__category-1 {
+  color: gray;
+  padding: 7px 0;
+}
+
 
 .menu_list {
   display: flex;
@@ -199,6 +223,15 @@ font-family: 'Open Sans', sans-serif;
   color: gray;
 }
 
+.scrollable__category h2 {
+  margin-top: 30px;
+}
+
+.item__subtitle {
+  color: gray;
+}
+
+.scrollable__category
 .title__category {
   color: white;
 }
@@ -217,6 +250,12 @@ font-family: 'Open Sans', sans-serif;
   display: block;
 }
 
+.item__cover-border {
+  border-radius: 50%;
+  width: 100%;
+  display: block;
+}
+
 .item__layover {
     position: absolute;
     display: flex;
@@ -226,21 +265,27 @@ font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
 
+.item__layover-1 {
+border-radius: 50%;
+
+}
+
 .item__layover i {
     color: white;
     font-size: 40px;
     display: none;
 }
 
-.overlay{
+.overlay {
     width: 100%;
     margin-bottom: 10px;
 }
-.overlay:hover .item__layover{
+
+.overlay:hover .item__layover {
     background: rgba( 0, 0, 0, 0.5);
 }
 
-.overlay:hover .item__layover i{
+.overlay:hover .item__layover i {
     display: block;
 }
 
@@ -301,10 +346,12 @@ font-family: 'Open Sans', sans-serif;
 .sidebar-bottom__intall-app i {
   margin-right: 0;
   }
+  
   .category__item {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .item__container {
         flex-wrap: wrap;
         flex-basis: calc(100% / 2);
