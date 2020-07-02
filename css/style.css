@@ -411,7 +411,7 @@ border-radius: 50%;
   position: relative;
   background-color: #535353;
   height: 4px;
-  flex-basis: 40%;
+  flex-basis: 60%;
   border-radius: 10px;
   margin: 0px 10px 0;
 }
@@ -607,7 +607,7 @@ border-radius: 50%;
     }
 
     .box__middle-bottom .bar {
-      flex-basis: 70%;
+      flex-basis: 40%;
     }
 
     .box__right .bar {
